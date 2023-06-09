@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-bottom: solid 1px;
+    height: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,140,213,1) 30%, rgba(51,131,203,0.8435749299719888) 100%);
+}
+
+.logo{
+    padding-left: 50px;
+    margin-left: 40px;
+    width: 100px;
+}
+
+.icones{
+    width: 100%;
+    margin-right: 50px;
+}
+
+.icones img{
+    width: 50px;
+    float: right;
+    cursor: pointer;
+    margin-top: 23px;
+    margin-right: 26px;
+}
+
+.escolha{
+height: 0;
+width: 150px;
+background-color: rgb(184, 172, 172);
+z-index: 9;
+position: absolute;
+right: 75px;
+transition: all 1s;
+overflow: hidden;
+
+}
+
+.escolha a{
+    border: solid 1px black;
+    border-top: 0;
+    font-size: 17px;
+    flex-direction: column;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.escolha a:hover{
+    transition: all 1s;
+}
+
+.escolha span{
+    margin-left: 7px;
+    color: black;
+}
+
+
+
+
+.resumo{
+    position: relative;
+    margin-left: 60px;
+    margin-top: 60px;
+    min-height: 500px;
+    max-height: fit-content;
+    width: 500px;
+    border: solid;
+}
+
+.resumo span{
+    padding: 6px;
+    display: flex;
+}
+
+.dia{
+    text-indent: 7px;
+    width: 496px;
+    border: 0;
+    border-bottom: solid 1px;
+    outline: none;
+}
+
+.quadros{
+    justify-content: center;
+    display: flex;
+}
+
+
+.enviar{
+    display: flex;
+    margin: 30px;
+    margin-top: 0;
+    justify-content: center;
+}
+
+.btn {
+    height: 20px;
+    width: 150px;
+    text-decoration-line: none;
+    justify-content: center;
+    display: flex;
+    border-radius: 14px;
+    padding: 16px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none !important;
+    transition: 160ms;
+    cursor: pointer;
+    margin-left: 60px;
+    
+}
+
+.btn span{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #34619b;
+}
+
+.calendario{
+    height: 20px;
+    width: 150px;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+}
+
+.descricao{
+    margin-top: 7px;
+    text-indent: 7px;
+    width: 496px;
+    border: 0;
+    border-bottom: solid 1px;
+    height: 340px;
+    outline: none;
+    resize: none;
+}
+
+.exp{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+
+
+
+.chat{
+    border: solid 1px;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    bottom: 0;
+    right: 30px;
+    width: 0px;
+    height: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #abbac0;
+}
+
+.chatzin{
+    border: solid;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    bottom: 0;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #3290b9;
+    text-align: center;
+}
+
+.chatzin img{
+    width: 25px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.chat header{
+    border-bottom: solid 1px;
+    background-color: #3290b9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
